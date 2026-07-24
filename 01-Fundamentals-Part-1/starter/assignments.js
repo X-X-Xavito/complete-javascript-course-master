@@ -1,0 +1,76 @@
+// let population;
+
+// const country = "Brazil";
+// const continent = "America";
+// population = 200;
+// const isIsland = false;
+// const language = "Portugues";
+
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+// console.log(isIsland);
+// console.log(language);
+
+
+// console.log(population / 2);
+
+// population++;
+
+// const population_finland = 6;
+
+// console.log(population > population_finland);
+
+// const average_population = 33;
+
+// console.log(population < average_population);
+
+// const description = country + " is in " + continent + " and its " + population + " million people speak " + language;
+
+// console.log(description);
+
+
+// const description_template_literal = `${country} is in ${continent} and its ${population} million people speak ${language}`;
+
+// console.log(description_template_literal)
+
+// const population_average = (population - 33) / 2
+
+// if (population > 33) {
+//     console.log(`${country} population is above average`)
+// } else {
+//     console.log(
+//         `${country}'s population is ${33 - population} million
+//     below average`
+//     );
+// }
+
+
+
+// console.log('9' - '5'); // -> 4
+// console.log('19' - '13' + '17'); // -> 617
+// console.log('19' - '13' + 17); // -> 23
+// console.log('123' < 57); // -> False
+// console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
+
+
+// // // LATER : This helps us prevent bugs
+// // const numNeighbours = Number(
+// //     prompt('How many neighbour countries does your country have?')
+// // );
+
+// // if (numNeighbours === 1) {
+// //     console.log('Only 1 border!');
+// // } else if (numNeighbours > 1) {
+// //     console.log('More than 1 border');
+// // } else {
+// //     console.log('No borders');
+// // }
+
+// const is_island = false;
+
+// if (language === "English" && population < 50 && !is_island) {
+//     console.log(`You should live in ${country}`);
+// } else {
+//     console.log(`${country} does not meet your criteria`)
+// }
